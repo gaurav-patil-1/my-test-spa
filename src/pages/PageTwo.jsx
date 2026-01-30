@@ -25,7 +25,6 @@ export default function PageTwo() {
           cpRumTag('tracepoint', 'tracepoint', 'tracepoint mesg');
           cpRumTag('variation', 'variation');
           cpRumTag('usePageHide', false);
-          cpRumTag('consentv2', { analytics_storage: 'granted' });
           cpRumTag('benchmarkLog', true);
         `}</script>
       </Helmet>
