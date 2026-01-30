@@ -236,3 +236,16 @@ Your site will be available at:
 ```
 https://<YOUR_USERNAME>.github.io/<YOUR_REPO>/
 ```
+
+
+Rum Tags
+
+cpRumTag('indicator', 'adsrendered', 2345);
+cpRumTag('pageGroup', 'home');
+cpRumTag('appError', 10, 'undefined error');
+cpRumTag('conversion', 20, 1200);
+cpRumTag('tracepoint', 'tracepoint', 'tracepoint mesg');
+cpRumTag('variation', 'variation');
+cpRumTag('usePageHide', false);
+cpRumTag('excludeBenchMarks');
+cpRumTag('consentv2', { analytics_storage: 'granted' })
