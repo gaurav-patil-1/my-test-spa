@@ -36,7 +36,6 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
           cpRumTag('tracepoint', 'tracepoint', 'tracepoint mesg');
           cpRumTag('variation', 'variation');
           cpRumTag('usePageHide', false);
-          cpRumTag('consentv2', { analytics_storage: 'denied' });
         `})})]})}function rg(){return lt.jsxs("div",{children:[lt.jsx("h2",{children:"Page 2"}),lt.jsx("p",{children:"Simple content for testing."}),lt.jsxs("p",{children:["Go to: ",lt.jsx(xl,{to:"/",children:"Home"})," | ",lt.jsx(xl,{to:"/page-1",children:"Page 1"})]}),lt.jsx($n,{children:lt.jsx("script",{type:"text/javascript",children:`
           window.CPRUMDataLayer = window.CPRUMDataLayer || [];
           function cpRumTag() {
@@ -51,4 +50,5 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
           cpRumTag('variation', 'variation');
           cpRumTag('usePageHide', false);
           cpRumTag('benchmarkLog', true);
+          cpRumTag('consentv2', { analytics_storage: 'denied' });
         `})})]})}const cr=({isActive:i})=>({textDecoration:"none",padding:"6px 10px",borderRadius:6,border:"1px solid #ccc",background:i?"#eee":"transparent",color:"inherit"});function og(){return lt.jsxs("div",{style:{padding:20,fontFamily:"system-ui, sans-serif"},children:[lt.jsx("h1",{children:"My Test SPA"}),lt.jsxs("nav",{style:{display:"flex",gap:12,marginBottom:20},children:[lt.jsx(Ti,{to:"/",end:!0,style:cr,children:"Home"}),lt.jsx(Ti,{to:"/page-1",style:cr,children:"Page 1"}),lt.jsx(Ti,{to:"/page-2",style:cr,children:"Page 2"})]}),lt.jsx("div",{style:{border:"1px solid #ddd",padding:16,borderRadius:8},children:lt.jsxs(V0,{children:[lt.jsx(pi,{path:"/",element:lt.jsx(cg,{})}),lt.jsx(pi,{path:"/page-1",element:lt.jsx(fg,{})}),lt.jsx(pi,{path:"/page-2",element:lt.jsx(rg,{})})]})})]})}Jv.createRoot(document.getElementById("root")).render(lt.jsx(wa.StrictMode,{children:lt.jsx(yp,{children:lt.jsx(og,{})})}));
