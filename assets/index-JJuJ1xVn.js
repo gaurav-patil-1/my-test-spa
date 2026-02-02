@@ -29,11 +29,9 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
             window.CPRUMDataLayer.push(arguments);
           }
 
-          cpRumTag('indicator', 'adsrendered', 2345);
           cpRumTag('pageGroup', 'home');
           cpRumTag('appError', 10, 'undefined error');
           cpRumTag('conversion', 20, 1200);
-          cpRumTag('tracepoint', 'tracepoint', 'tracepoint mesg');
           cpRumTag('variation', 'variation');
           cpRumTag('usePageHide', false);
         `})})]})}function rg(){return lt.jsxs("div",{children:[lt.jsx("h2",{children:"Page 2"}),lt.jsx("p",{children:"Simple content for testing."}),lt.jsxs("p",{children:["Go to: ",lt.jsx(xl,{to:"/",children:"Home"})," | ",lt.jsx(xl,{to:"/page-1",children:"Page 1"})]}),lt.jsx($n,{children:lt.jsx("script",{type:"text/javascript",children:`
