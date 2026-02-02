@@ -18,11 +18,9 @@ export default function PageOne() {
             window.CPRUMDataLayer.push(arguments);
           }
 
-          cpRumTag('indicator', 'adsrendered', 2345);
           cpRumTag('pageGroup', 'home');
           cpRumTag('appError', 10, 'undefined error');
           cpRumTag('conversion', 20, 1200);
-          cpRumTag('tracepoint', 'tracepoint', 'tracepoint mesg');
           cpRumTag('variation', 'variation');
           cpRumTag('usePageHide', false);
         `}</script>
