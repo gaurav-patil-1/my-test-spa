@@ -26,7 +26,6 @@ export default function PageOne() {
           cpRumTag('variation', 'variation');
           cpRumTag('usePageHide', false);
           cpRumTag('consentv2', { analytics_storage: 'denied' });
-          cpRumTag('benchmarkLog', true);
         `}</script>
       </Helmet>
     </div>
