@@ -37,7 +37,6 @@ Please change the parent <Route path="${L}"> to <Route path="${L==="/"?"*":`${L}
           cpRumTag('variation', 'variation');
           cpRumTag('usePageHide', false);
           cpRumTag('consentv2', { analytics_storage: 'denied' });
-          cpRumTag('benchmarkLog', true);
         `})})]})}function rg(){return lt.jsxs("div",{children:[lt.jsx("h2",{children:"Page 2"}),lt.jsx("p",{children:"Simple content for testing."}),lt.jsxs("p",{children:["Go to: ",lt.jsx(xl,{to:"/",children:"Home"})," | ",lt.jsx(xl,{to:"/page-1",children:"Page 1"})]}),lt.jsx($n,{children:lt.jsx("script",{type:"text/javascript",children:`
           window.CPRUMDataLayer = window.CPRUMDataLayer || [];
           function cpRumTag() {
